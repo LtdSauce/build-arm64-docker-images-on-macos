@@ -32,7 +32,7 @@ jobs:
           brew install docker
           brew install colima
           colima version
-          colima start
+          colima start --verbose
       - name: Set up Docker Buildx
         id: buildx
         uses: docker/setup-buildx-action@v3
